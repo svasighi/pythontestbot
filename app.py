@@ -1,3 +1,7 @@
+import re
+from flask import Flask, request
+import telegram
+
 from threading import Thread
 from Api import sms, call
 from time import sleep
@@ -5,7 +9,7 @@ from sys import exit
 from os import system, name
 from inspect import getmembers, isfunction 
 from random import choice
-import re
+from credentials import bot_user_name, bot_token, URL
 
 global bot
 global TOKEN
