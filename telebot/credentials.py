@@ -1,3 +1,3 @@
-bot_token = "here goes your access token from BotFather"
-bot_user_name = "the username you entered"
-URL = "the heroku app link that we will create later"
+bot_token = "817721553:AAERGIJfNY1XlcFDrM3WdRGECwPluOXVLtU"
+bot_user_name = "testfordevbot"
+URL = "https://lustrous-eclair-3b1972.netlify.app"
